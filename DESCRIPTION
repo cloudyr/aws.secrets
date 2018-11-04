@@ -1,0 +1,19 @@
+Package: aws.secrets
+Type: Package
+Title: Client Package for 'AWS Secrets Manager'
+Version: 0.1.2
+Date: 2016-07-31
+Authors@R: c(person("Thomas J.", "Leeper", role = c("aut", "cre"),
+                    email = "thosjleeper@gmail.com",
+                    comment = c(ORCID = "0000-0003-4097-6326")))
+Description: A client for the 'AWS Secrets Manager' service <https://aws.amazon.com/secrets-manager/>.
+License: GPL (>= 2)
+URL: https://github.com/cloudyr/aws.secrets
+BugReports: https://github.com/cloudyr/aws.secrets/issues
+Imports:
+    httr,
+    jsonlite,
+    aws.signature (>= 0.4.0)
+Suggests:
+    testthat
+RoxygenNote: 5.0.1
